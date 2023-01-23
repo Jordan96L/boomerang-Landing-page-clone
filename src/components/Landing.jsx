@@ -15,6 +15,11 @@ export default function Landing () {
             className="boomerang-logo"
             />
             </div>
+            <img 
+            src={require("../assets/Vector.png")}
+            alt="background"
+            className="landing-background"
+            />
         </div>
     )
 }

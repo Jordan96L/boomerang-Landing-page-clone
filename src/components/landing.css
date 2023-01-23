@@ -1,6 +1,3 @@
-  body {
-    background-color: orange;
-  }
   .landing-container {
   position: relative;
   height: 100vh;
@@ -239,5 +236,67 @@
     width: 120px;
     top: 5px;
     left: 130px;
+ }
+}
+.landing-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -webkit-animation: shrinkBackgroundImage 4.5s;
+  animation: shrinkBackgroundImage 4.5s;
+}
+@-webkit-keyframes shrinkBackgroundImage {
+  0% {
+    width: 100%;
+    height: 200%;
+ }
+  50% {
+    width: 100%;
+    height: 180%;
+ }
+  85% {
+    width: 100%;
+    height: 170%;
+ }
+  90% {
+    width: 100%;
+    height: 150%;
+ }
+  96% {
+    width: 100%;
+    height: 120%;
+ }
+  100% {
+    width: 100%;
+    height: 90%;
+ }
+}
+@keyframes shrinkBackgroundImage {
+  0% {
+    width: 100%;
+    height: 200%;
+ }
+  50% {
+    width: 100%;
+    height: 180%;
+ }
+  85% {
+    width: 100%;
+    height: 170%;
+ }
+  90% {
+    width: 100%;
+    height: 150%;
+ }
+  96% {
+    width: 100%;
+    height: 120%;
+ }
+  100% {
+    width: 100%;
+    height: 90%;
  }
 }
