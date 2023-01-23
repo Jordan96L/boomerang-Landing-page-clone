@@ -39,20 +39,20 @@
   85% {
     height: 185px;
     top: 40%;
-    left: 55%;
+    left: 50%;
     transform: translate(0%, -40%);
     z-index: 3;
  }
   90% {
     height: 40px;
     top: 30px;
-    left: 225px;
+    left: 220px;
     z-index: 3;
  }
   100% {
     height: 45px;
     top: 35px;
-    left: 230px;
+    left: 225px;
     z-index: 3;
  }
 }
@@ -69,7 +69,7 @@
   35% {
     height: 250px;
     top: 40%;
-    left: 60%;
+    left: 65%;
     transform: translate(0%, -40%);
     z-index: 3;
  }
@@ -245,8 +245,8 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  -webkit-animation: shrinkBackgroundImage 4.5s;
-  animation: shrinkBackgroundImage 4.5s;
+  -webkit-animation: shrinkBackgroundImage 4.5s linear;
+  animation: shrinkBackgroundImage 4.5s linear;
 }
 @-webkit-keyframes shrinkBackgroundImage {
   0% {
@@ -298,5 +298,43 @@
   100% {
     width: 100%;
     height: 90%;
+ }
+}
+.cars-image {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  width: auto;
+  height: 50%;
+  z-index: 1;
+  -webkit-animation: slideCarsIn 5s ease-out;
+  animation: slideCarsIn 5s ease-out;
+}
+@-webkit-keyframes slideCarsIn {
+  0% {
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+ }
+  80% {
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+ }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+ }
+}
+@keyframes slideCarsIn {
+  0% {
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+ }
+  80% {
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+ }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
  }
 }

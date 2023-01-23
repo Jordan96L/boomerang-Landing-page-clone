@@ -20,6 +20,11 @@ export default function Landing () {
             alt="background"
             className="landing-background"
             />
+             <img 
+            src={require("../assets/hero-cars-mobile.png")}
+            alt="cars"
+            className="cars-image"
+            />
         </div>
     )
 }
