@@ -8,6 +8,13 @@ export default function Landing () {
             alt=""
             className="boomerang"
             />
+            <div className="opening">
+            <img 
+            src={require("../assets/boomerangLogo.svg").default}
+            alt=""
+            className="boomerang-logo"
+            />
+            </div>
         </div>
     )
 }
