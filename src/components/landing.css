@@ -428,6 +428,7 @@
   font-size: 1.15rem;
   margin: 0;
   font-weight: 500;
+  opacity: 0.75;
 }
 @-webkit-keyframes slideTextIn {
   0% {
@@ -479,3 +480,4 @@
   width: auto;
   float: right;
 }
+
