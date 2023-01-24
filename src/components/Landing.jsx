@@ -50,6 +50,16 @@ export default function Landing () {
                        <Button>Start Now</Button> 
                     </div>
                 </div>
+
+                <div className="tele-quote-container">
+                    <p className="quote-text">
+                    “To all taxi drivers out there…This is the 'best route' for renting your vehicle”
+                    </p>
+                    <img 
+                    src={require("../assets/tele.png")}
+                    alt="telgraph-logo"
+                    className="tele-image"/>
+                </div>
             </section>
         </div>
     )
