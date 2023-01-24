@@ -17,6 +17,7 @@
 @-webkit-keyframes boomerangEntry {
   0% {
     height: 250px;
+    opacity: 1;
     top: 30%;
     left: 20%;
     -webkit-transform: translateX(0);
@@ -455,4 +456,26 @@
     -webkit-transform: translateX(0);
     transform: translateX(0)
   }
+}
+
+.tele-quote-container {
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+  color: black;
+  margin-bottom: 20px;
+  -webkit-animation: slideCarsIn 5s ease-out;
+  animation: slideCarsIn 5s ease-out;
+}
+
+.quote-text {
+  font-size: 0.95rem;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.tele-image {
+  height: 15px;
+  width: auto;
+  float: right;
 }
